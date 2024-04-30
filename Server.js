@@ -26,10 +26,10 @@ app.use(cors())
 
 const  adminrouter = require("./routes/adminroutes")
 const customerrouter = require("./routes/customerroutes")
- const router = require('./routes/recommendroutes')
+//  const router = require('./routes/recommendroutes')
  const sellerrouter = require('./routes/sellerroutes')
 
- app.use("", router)
+//  app.use("", router)
 app.use("",adminrouter)
 app.use("",customerrouter) 
 app.use('', sellerrouter)
